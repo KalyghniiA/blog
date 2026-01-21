@@ -1,32 +1,30 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {  Noto_Sans } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const inter = Noto_Sans({
+	subsets: ["cyrillic", "latin"]
 });
 
 export const metadata: Metadata = {
-  title: "Мой блог",
-  description: "Это мой блог"
+	title: "Мой блог",
+	description: "Это мой блог",
+	appLinks: {
+	}
 };
 
 export default function RootLayout({
-  children,
+	children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="ru">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
-      </body>
-    </html>
-  );
+	return (
+		<html lang="ru">
+			<body className={`${inter.className}`}>
+				<div className={`${inter.className} container`} >
+					{children}
+				</div>
+			</body>
+		</html>
+	);
 }

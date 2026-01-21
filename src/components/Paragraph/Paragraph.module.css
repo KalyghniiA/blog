@@ -1,0 +1,16 @@
+.paragraph {
+    color: var(--text-color-2);
+    font-weight: 400;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.medium {
+    font-size: 14px;
+}
+
+.large {
+    font-size: 18px;
+}

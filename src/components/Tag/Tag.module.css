@@ -1,0 +1,12 @@
+.tag {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.time {
+    color: var(--text-color-2);
+}
+
+.category {
+    color: var(--text-color-3);
+}

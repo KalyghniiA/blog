@@ -1,0 +1,16 @@
+.header {
+    font-weight: 700;
+    color: var(--text-color-1);
+}
+
+.small {
+    font-size: 18px;
+}
+
+.medium {
+    font-size: 28px;
+}
+
+.large {
+    font-size: 34px;
+}

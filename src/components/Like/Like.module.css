@@ -1,7 +1,7 @@
-.like:hover path {
-    stroke: var(--text-color-1)
+.like-card path {
+    stroke: var(--text-color-1);
 }
 
-.like-active {
-    fill: var(--text-color-1);
+.like-button path {
+    stroke: var(--text-color-4);
 }

@@ -1,6 +1,6 @@
-import {ButtonHTMLAttributes, ReactNode} from "react";
+import {ButtonHTMLAttributes} from "react";
 
 export interface ButtonLikeProps extends ButtonHTMLAttributes<HTMLButtonElement>{
-    children: ReactNode;
     isActive: boolean;
+    id: string;
 }

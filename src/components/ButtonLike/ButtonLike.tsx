@@ -14,7 +14,10 @@ export default function ButtonLike ({isActive, id}: ButtonLikeProps) {
 	};
 
 	return (
-		<form action={updateData}>
+		<form action={() =>{
+			setIsLike(!isLike);
+			return updateData();
+		}}>
 			<button type={"submit"} className={styles.button}>
 				<Like type="button" />
 			</button>

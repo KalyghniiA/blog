@@ -12,7 +12,7 @@ export default function Home() {
 				<Card />
 			</div>
 			<div style={{marginTop: "20px"}}>
-				<ButtonLike />
+				<ButtonLike id={"1"} isActive={false} />
 			</div>
 		</>
 	);

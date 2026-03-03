@@ -1,0 +1,9 @@
+.link {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.link:hover .svg {
+    fill: var(--text-color-2);
+}

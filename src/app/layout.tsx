@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import {  Noto_Sans } from "next/font/google";
+import {  Open_Sans } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header/Header";
 
-const inter = Noto_Sans({
+const inter = Open_Sans({
 	subsets: ["cyrillic", "latin"]
 });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
 		<html lang="ru">
 			<body className={`${inter.className}`}>
 				<div className={`${inter.className} container`} >
+					<Header/>
 					{children}
 				</div>
 			</body>

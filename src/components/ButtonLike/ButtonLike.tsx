@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "./ButtonLike.module.css";
 import Like from "@/components/Like/Like";
 import {useState} from "react";

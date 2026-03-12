@@ -1,0 +1,16 @@
+.button {
+    width: 48px;
+    height: 48px;
+    background: none;
+    border: 1px solid var(--text-color-4);
+    border-radius: 50%;
+    padding: 14px;
+}
+
+.button:hover {
+    background-color: var(--text-color-4);
+}
+
+.button:hover path {
+    stroke: var(--background-color);
+}

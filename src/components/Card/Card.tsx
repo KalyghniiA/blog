@@ -20,7 +20,7 @@ export default function Card() {
 				</div>
 				<div className={styles["like-container"]}>
 					<span className={styles["like-quantity"]}>0</span>
-					<Like />
+					<Like type={"card"}/>
 				</div>
 			</div>
 			<Htag tag={"h3"}>Как работать с CSS Grid</Htag>

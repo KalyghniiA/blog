@@ -1,4 +1,4 @@
-import Card from "@/components/Card/Card";
+import CardList from "@/components/CardList/CardList";
 
 
 export default function Home() {
@@ -6,10 +6,10 @@ export default function Home() {
 
 	return (
 		<>
-			<header><p>Blog</p></header>
-			<div>
-				<Card />
-			</div>
+			<CardList />
+			{/*<div style={{marginTop: "20px"}}>*/}
+			{/*	<ButtonLike id={"1"} isActive={false} />*/}
+			{/*</div>*/}
 		</>
 	);
 }
